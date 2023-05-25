@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -o CMakeFiles/ggml.dir/ggml.c.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/ggml.c",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/ggml.c",
+  "output": "CMakeFiles/ggml.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/llama.dir/llama.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/llama.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/llama.cpp",
+  "output": "CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-quantize-fns.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-quantize-fns.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-quantize-perf.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-quantize-perf.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-tokenizer-0.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/tests/test-tokenizer-0.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/common.dir/common.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/common.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/common.cpp",
+  "output": "examples/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/main",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/main.dir/main.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/main/main.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/main/main.cpp",
+  "output": "examples/main/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/quantize",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/quantize.dir/quantize.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/quantize/quantize.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/quantize/quantize.cpp",
+  "output": "examples/quantize/CMakeFiles/quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/quantize-stats",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "output": "examples/quantize-stats/CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/perplexity",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/perplexity.dir/perplexity.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/perplexity/perplexity.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/perplexity/perplexity.cpp",
+  "output": "examples/perplexity/CMakeFiles/perplexity.dir/perplexity.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/embedding",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/embedding.dir/embedding.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/embedding/embedding.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/embedding/embedding.cpp",
+  "output": "examples/embedding/CMakeFiles/embedding.dir/embedding.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/examples/save-load-state",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/save-load-state.dir/save-load-state.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "output": "examples/save-load-state/CMakeFiles/save-load-state.dir/save-load-state.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/pocs/vdot",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/vdot.dir/vdot.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs/vdot/vdot.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs/vdot/vdot.cpp",
+  "output": "pocs/vdot/CMakeFiles/vdot.dir/vdot.cpp.o"
+},
+{
+  "directory": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-bindings/golang/buildllama/pocs/vdot",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/examples/. -I/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/. -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -o CMakeFiles/q8dot.dir/q8dot.cpp.o -c /Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs/vdot/q8dot.cpp",
+  "file": "/Users/perumas1/Workspace/wccf-sre/gpt4all/gpt4all-backend/llama.cpp/pocs/vdot/q8dot.cpp",
+  "output": "pocs/vdot/CMakeFiles/q8dot.dir/q8dot.cpp.o"
+}
+]
